@@ -2,8 +2,42 @@
 <html lang="en">
 <head>
     <title>MI PRIMERA WEB</title>
+    <style>
+        table, th, td {
+            border: 1px solid black
+        }
+    </style>
 </head>
 <body>
+
+    <table style="width: 500px;" >
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Beatsssssssssssssssss</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Animal</td>
+                <td>Cjjjjjjjjjjjarmmmmmmmmmmo</td>
+            </tr>
+            <tr>
+                <td>Vaca</td>
+                <td>Sagrada</td>
+            </tr>            
+        </tbody>
+        <tfoot>
+            <td>total</td>
+            <td>33,33</td>
+        </tfoot>        
+        
+    </table>
+
     <!--ul es lista no ordenada--> 
     <ul>
         <li>Elemento 1</li>
@@ -14,10 +48,20 @@
 
      <!--ol es lista ordenada--> 
     <ol>
-        <li>Elemento 1</li>
+        <li value="50">Elemento 1</li>
         <li>Elemento 2</li>
         <li>Elemento 3</li>
         <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;"> Sub-elemento 1 </li>
+                <li style="list-style-type: lower-roman;"> Sub-elemento 2 </li>
+                <li style="list-style-type: lower-roman;"> Sub-elemento 3 </li>
+                <li style="list-style-type: lower-roman;"> Sub-elemento 4 </li>
+
+            </ol>
+
+        </li>
     </ol>
 
     <form action="/formulario" method="post">
