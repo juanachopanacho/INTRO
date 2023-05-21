@@ -1,103 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>MI PRIMERA WEB</title>
-    <style>
-        table, th, td {
-            border: 1px solid black
-        }
-    </style>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-    <table style="width: 500px;" >
-        <thead>
-            <tr>
-                <th>Precio</th>
-                <th>Producto</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Beatsssssssssssssssss</td>
-                <td>Gratis</td>
-            </tr>
-            <tr>
-                <td>Animal</td>
-                <td>Cjjjjjjjjjjjarmmmmmmmmmmo</td>
-            </tr>
-            <tr>
-                <td>Vaca</td>
-                <td>Sagrada</td>
-            </tr>            
-        </tbody>
-        <tfoot>
-            <td>total</td>
-            <td>33,33</td>
-        </tfoot>        
-        
-    </table>
-
-    <!--ul es lista no ordenada--> 
-    <ul>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-        <li>Elemento 4</li>
-    </ul>
-
-     <!--ol es lista ordenada--> 
-    <ol>
-        <li value="50">Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-        <li>Elemento 4</li>
-        <li>
-            <ol>
-                <li style="list-style-type: lower-roman;"> Sub-elemento 1 </li>
-                <li style="list-style-type: lower-roman;"> Sub-elemento 2 </li>
-                <li style="list-style-type: lower-roman;"> Sub-elemento 3 </li>
-                <li style="list-style-type: lower-roman;"> Sub-elemento 4 </li>
-
-            </ol>
-
-        </li>
-    </ol>
-
-    <form action="/formulario" method="post">
-        <!--dos formas de enviar GET y POST--> 
-        <!-- LALALIIIII GET si son menos de 250 caracteres y POST para mas de 250 caracteres. Es seguro con certificados--> 
-        <label for="nombre"> Nombre:</label>
-        <input value="sape" type="text" id="nombre" name="nombre" placeholder="Escriba su nombre"> <br>
-        <br>
-        <label for="apellido"> Apellido:</label>
-        <input value="sape" type="text" id="apellido" name="apellido" placeholder="Escriba su apellido">
-        <br>
-        <br>
-        <label for="comentario"> Comentario:</label><br>
-        <textarea name="comentario" id="comentario" placeholder="Escriba su comentario" cols="29" rows="5">este es un valor por defecto</textarea>
-        <br>
-        <button type="button"> boton </button>
-        <button type="reset"> reset </button> 
-        <button type="submit"> submit </button>  
-     
-    </form>
-    <h1>MI PRIMER HEADING</h1>
-    <h2>MI segundo HEADING</h2>    
-    <h3>MI tercer HEADING</h3>
-    <h4>MI cuarto HEADING</h4>
-    <h5>MI quinto HEADING</h5>
-    <h6>Chancito feliz</h6>
-    <p>Chanchito feliz está muy feliz.</p>
-    <p>Chanchito triste está muy triste.</p>
-    <hr>
-    <h2>Chanchito Felipe</h2>
-    <p>Texto un poco más</p>
-    <p>Lorem ipsum dolor sit <span style="color:blueviolet">amet consectetur, <br> adipisicing</span>  elit. Repudiandae ad temporibus vel culpa! Eius ducimus <br> fugiat suscipit eum delectus fugit commodi labore molestiae, accusamus quos deleniti nemo maiores, natus quis.</p>
-    <!--Holita--> 
-    <img src="img/Janet.jpg" width="150" height="100" />  <br> 
-        <a target="_blank" href="https://google.com">ir a google </a> <br> 
-    <img src="https://yt3.ggpht.com/nKyGytqT_8VUDpoUiv8IriiCYeVeyeQesL9yCoQwwc2r1WYTi2vwezuujVrNvtmOK2EcolPuLaf2iA=s600-nd-v1-rwa" width="150" height="100" /> <br>
-
+    <header>
+        <h1 id="titulo">Blog Thai</h1>
+    </header>
+    <section class="container">
+        <article class="post">
+            <h2>Janet Kanokwan</h2>
+            <p>Descripción de mi post</p>
+            <img src="img/janet.jpg" width="300"/>
+            <p>Texto del artículo que hay aca y es texto de prueba. Cuchi happy</p>
+        </article>
+        <article class="post">
+            <h2>Suchada Varaho</h2>
+            <p>Descripción de mi post2</p>
+            <img src="img/suchada.jpg" width="300"/>
+            <p>Texto del artículo que hay aca y es texto de prueba2. Cuchi happy2</p>
+        </article>
+        <article class="post">
+            <h2>Umawan Fiebig</h2>
+            <p>Descripción de mi post3</p>
+            <img src="img/umawan.jpg" width="300"/>
+            <p>Texto del artículo que hay aca y es texto de prueba3. Cuchi happy3</p>
+        </article>
+    </section>
+    <footer>
+        <section>
+            <a href="#titulo">Volver al inicio</a> 
+            <a href="mailto:panapana@gmail.com"> Contactos aqui</a>
+        </section>      
+        <p>Copyright 2021</p>
+    </footer>
 </body>
 </html>
