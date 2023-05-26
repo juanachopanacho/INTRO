@@ -18,9 +18,27 @@ header h1{
 
 }
 
-.container{
+img{
+    
     width: 300px;
-    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.container{
+    display:inline-table;
+    width: 300px;
+    height: 430px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+main{
+    border: 2px;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
 
 }
 
@@ -32,7 +50,17 @@ section article{
     border-radius: 0.5rem ;
     padding: 0.25rem 0;
     cursor: pointer;
+    
  
+
+}
+
+article.post {
+    width: 300px;
+    height: 430px;
+    border: 1rem 0;
+    margin: 1rem 0;
+    padding: 1rem 0;
 
 }
 
